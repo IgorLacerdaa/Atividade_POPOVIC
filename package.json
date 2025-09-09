@@ -1,0 +1,19 @@
+{
+  "name": "barbershop-scheduler",
+  "version": "1.0.0",
+  "description": "Sistema de agendamento para barbearia em TypeScript",
+  "main": "barbershop-scheduler.js",
+  "scripts": {
+    "build": "tsc barbershop-scheduler.ts",
+    "start": "node barbershop-scheduler.js",
+    "dev": "ts-node barbershop-scheduler.ts"
+  },
+  "keywords": ["typescript", "barbershop", "scheduling", "csv"],
+  "author": "IgorLacerdaa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
